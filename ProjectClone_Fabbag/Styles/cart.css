@@ -1,0 +1,230 @@
+#nabvar{
+    /* border: 2px solid black; */
+    display: flex;
+    height: 100px;
+    width: 100%;
+    margin-top: 0px;
+    background-color: white;
+    position: fixed;
+    box-shadow: 0px 0px 5px #888888;
+}
+#left_btn{
+    margin-top: 25px;
+    margin-left: 15px;
+    color: RGB(228, 185, 97);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    border: transparent;
+}
+#tag_img{
+    margin: auto;
+}
+#smallicons{
+    /* border: 1px solid black; */
+    height: 20px;
+    width: 200px;
+    margin-top: 22px;
+}
+#smallicons>a{
+    color: RGB(228, 185, 97);
+    margin-left: 15px;
+}
+#footer{
+    height: 530px;
+    width: 100%;
+    /* border: 2px dashed black; */
+    box-shadow: 0px 0px 5px #888888;
+}
+#parent{
+    height: 350px;
+    width: 78%;
+    margin: auto;
+    margin-top: 60px;
+    /* border: 2px dashed black; */
+    display: flex;
+}
+#child01{
+    height: fit-content;
+    width: 25%;
+    /* border: 2px solid black; */
+    /* margin: auto; */
+}
+#child02{
+    height: fit-content;
+    width: 25%;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 0px;
+}
+#child03{
+    height: fit-content;
+    width: 25%;
+    /* border: 2px solid black; */
+    /* margin: auto; */
+}
+#child01>h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+#child01>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: grey;
+    /* line-height: 34px; */
+}
+#child01>p:hover{
+    color: RGB(228, 185, 97);
+}
+#child02>h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+#child02>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: grey;
+    /* line-height: 34px; */
+}
+#child02>p:hover{
+    color: RGB(228, 185, 97);
+}
+#child03>h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+#child03>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: grey;
+}
+#child03>p:hover{
+    color: RGB(228, 185, 97);
+}
+#child03>input{
+    background-color: transparent;
+    color: gray;
+    border: transparent;
+}
+#child03>button{
+    height: 38px;
+    width: 110px;
+    color: white;
+    background-color: RGB(228, 185, 97);
+    border: transparent;
+    border-radius: 8px;
+}
+#child03>button:hover{
+    background-color: black;
+}
+#parent02{
+    height: 50px;
+    width: 210px;
+    /* border: 2px dotted black; */
+    margin: auto;
+    margin-top: 40px;
+}
+#parent02>a{
+    color: grey;
+    margin-left: 8px;
+}
+#parent02>a:nth-child(1):hover{
+    color: RGB(24, 120, 243);
+}
+#parent02>a:nth-child(2):hover{
+    color: RGB(29, 155, 240);
+}
+#parent02>a:nth-child(3):hover{
+    color: RGB(206, 104, 96);
+}
+#parent02>a:nth-child(4):hover{
+    color: RGB(254, 0, 0);
+}
+#lasttext{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -10px;
+    word-spacing: 4px;
+}
+#cartProduct{
+    height: 600px;
+    width: 100%;
+    border: 2px dashed white;
+}
+#my_cart{
+    margin-left: 200px;
+    margin-top: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+}
+#cartItem{
+    height: 260px;
+    width: 75%;
+    margin: auto;
+    /* border: 2px solid black; */
+    display: flex;
+}
+#bacha01{
+    height: 100%;
+    width: 60%;
+    /* border: 1px blue dashed; */
+}
+#bacha01>img{
+    height: 50px;
+    width: 100%;
+}
+#bacha0101{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+#bacha0101>img:nth-child(1){
+    height: 120px;
+    width: 250px;
+}
+#bacha0101>img:nth-child(2){
+    height: 96px;
+    width: 500px;
+}
+#bacha02>img:nth-child(1){
+    height: 18px;
+    width: 88%;
+    margin-top: 8px;
+    margin-left: 40px;
+}
+#bacha02>button:nth-child(2){
+    height: 38px;
+    width: 86%;
+    background-color: RGB(52, 52, 52);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    margin: auto;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: transparent;
+}
+#bacha02>button:nth-child(2):hover{
+    background-color: RGB(228, 185, 97);
+}
+#bacha02>button:nth-child(3){
+    height: 38px;
+    width: 86%;
+    background-color: RGB(228, 185, 97);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    margin: auto;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: transparent;
+}
+#bacha02>button:nth-child(3):hover{
+    background-color: RGB(52, 52, 52);
+}
